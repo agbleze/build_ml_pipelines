@@ -11,8 +11,8 @@ for record in tf.data.TFRecordDataset("test.tfrecord"):
     print(record)
 
 #%%    
-tf.Tensor(b'Frist record', shape=(), dtype=string)
-tf.Tensor(b'Second record', shape=(), dtype=string)
+#tf.Tensor(b'Frist record', value_index=2, dtype=string)
+#tf.Tensor(b'Second record', value_index=3, dtype=string)
 
 
 #%%  ingestng local data files
@@ -30,3 +30,14 @@ example_gen = CsvExampleGen(input_base=data_dir)
 context = InteractiveContext()
 context.run(example_gen)
 
+
+#%% converting parquet-serialized data to tf.Example
+
+from tfx.components import FileBasedExampleGen
+
+
+
+
+
+
+# %%

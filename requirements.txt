@@ -1,12 +1,12 @@
 tensorboard_plugin_fairness_indicators==0.35.0
 tensorflow_hub==0.12.0
 tensorflow_privacy==0.7.3
-tensorflow==2.6.1
+tensorflow==2.11.1
 tfx==1.4.0
 witwidget==1.8.1
 numpy~=1.19.2
 tensorflow-estimator<2.7
-protobuf>=4.21.6
+protobuf==3.20 #>=4.21.6
 cloudpickle~=2.2.1
 packaging>=22.0
 absl-py<0.13
