@@ -35,6 +35,9 @@ context.run(example_gen)
 
 from tfx.components import FileBasedExampleGen
 
+#%% data validation
+
+
 
 
 
