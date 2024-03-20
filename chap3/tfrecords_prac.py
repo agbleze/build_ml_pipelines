@@ -15,6 +15,10 @@ for record in tf.data.TFRecordDataset("test.tfrecord"):
 #tf.Tensor(b'Second record', value_index=3, dtype=string)
 
 
+#%% TODO:
+#1. setup tensorflow with GPU
+
+
 #%%  ingestng local data files
 import os 
 from tfx.components import CsvExampleGen
